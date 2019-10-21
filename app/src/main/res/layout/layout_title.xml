@@ -2,13 +2,13 @@
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="8dp"
-    android:gravity="center"
     android:layout_alignParentBottom="true"
     android:layout_centerHorizontal="true"
-    android:visibility="gone"
-    android:textAppearance="?android:attr/textAppearanceSmallInverse"
     android:background="@drawable/lable_bgr"
-    android:orientation="vertical">
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:textAppearance="?android:attr/textAppearanceSmallInverse"
+    android:visibility="gone">
 
 </TextView>

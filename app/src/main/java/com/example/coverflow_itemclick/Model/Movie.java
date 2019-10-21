@@ -2,13 +2,16 @@ package com.example.coverflow_itemclick.Model;
 
 public class Movie {
     public String title;
-    public String summary;
     public String url;
+    public String summary;
 
-    public Movie(String title, String summary, String url) {
+    public Movie() {
+    }
+
+    public Movie(String title, String url, String summary) {
         this.title = title;
-        this.summary = summary;
         this.url = url;
+        this.summary = summary;
     }
 
     public String getTitle() {
@@ -19,19 +22,19 @@ public class Movie {
         this.title = title;
     }
 
-    public String getSummary() {
-        return summary;
-    }
-
-    public void setSummary(String summary) {
-        this.summary = summary;
-    }
-
     public String getUrl() {
         return url;
     }
 
     public void setUrl(String url) {
         this.url = url;
+    }
+
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
     }
 }
