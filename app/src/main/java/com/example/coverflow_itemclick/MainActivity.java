@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(MainActivity.this, MovieDetail.class);
-                intent.putExtra("movie_index", position);
+                intent.putExtra(Common.MOVIE_INDEX, position);
                 startActivity(intent);
             }
         });
@@ -68,8 +68,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initData() {
-        Common.movieList.add(new Movie("Songoku",
-                "http://shoppopgallery.com/wp-content/uploads/2019/06/nature-at-night-2880x1800-wallpaper-staggering-2880-x-1800-complex-11.jpg",
+        Common.movieList.add(new Movie("Iron Man",
+                "https://images.hdqwalls.com/wallpapers/iron-man-2020-5k-2t.jpg",
                 "My whole world changed from the moment I met you\n" +
                         "And it would never be the same\n" +
                         "Felt like I knew that I'd always love you\n" +

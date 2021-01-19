@@ -25,7 +25,7 @@ public class MovieDetail extends AppCompatActivity {
         movie_summary = findViewById(R.id.movie_summary);
 
         if (getIntent() != null) {
-            int movie_index = getIntent().getIntExtra("movie_index", -1);
+            int movie_index = getIntent().getIntExtra(Common.MOVIE_INDEX, -1);
             if (movie_index != -1) {
                 loadMovieDetail(movie_index);
             }

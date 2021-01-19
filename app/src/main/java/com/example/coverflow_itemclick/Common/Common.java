@@ -7,4 +7,5 @@ import java.util.List;
 
 public class Common {
     public static List<Movie> movieList = new ArrayList<>();
+    public static String MOVIE_INDEX = "movie_index";
 }
