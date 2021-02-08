@@ -2,10 +2,18 @@
   <library name="Gradle: com.github.florent37:diagonallayout:1.0.9@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b2bbc46ba178c7c1a530c3821607e6a4/jetified-diagonallayout-1.0.9/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2762611a6c464bb2e7a588e1d5ba12ef/jetified-diagonallayout-1.0.9/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ad2b39d8d496c0349762f416c75520e/jetified-diagonallayout-1.0.9/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b2bbc46ba178c7c1a530c3821607e6a4/jetified-diagonallayout-1.0.9/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b2bbc46ba178c7c1a530c3821607e6a4/jetified-diagonallayout-1.0.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2762611a6c464bb2e7a588e1d5ba12ef/jetified-diagonallayout-1.0.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2762611a6c464bb2e7a588e1d5ba12ef/jetified-diagonallayout-1.0.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2762611a6c464bb2e7a588e1d5ba12ef/jetified-diagonallayout-1.0.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ad2b39d8d496c0349762f416c75520e/jetified-diagonallayout-1.0.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ad2b39d8d496c0349762f416c75520e/jetified-diagonallayout-1.0.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ad2b39d8d496c0349762f416c75520e/jetified-diagonallayout-1.0.9/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.florent37/diagonallayout/1.0.9/ebfce3f9cca193d74ed4f1572781ea83dffb760c/diagonallayout-1.0.9-javadoc.jar!/" />

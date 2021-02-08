@@ -11,9 +11,11 @@ import android.widget.TextSwitcher;
 import android.widget.TextView;
 import android.widget.ViewSwitcher;
 
-import com.example.coverflow_itemclick.Adapter.MovieAdapter;
-import com.example.coverflow_itemclick.Common.Common;
-import com.example.coverflow_itemclick.Model.Movie;
+import com.example.coverflow_itemclick.adapter.MovieAdapter;
+import com.example.coverflow_itemclick.common.Common;
+import com.example.coverflow_itemclick.db.Db;
+import com.example.coverflow_itemclick.entity.Product;
+import com.example.coverflow_itemclick.model.Movie;
 
 import it.moondroid.coverflow.components.ui.containers.FeatureCoverFlow;
 
@@ -70,38 +72,18 @@ public class MainActivity extends AppCompatActivity {
     private void initData() {
         Common.movieList.add(new Movie("Iron Man",
                 "https://images.hdqwalls.com/wallpapers/iron-man-2020-5k-2t.jpg",
-                "My whole world changed from the moment I met you\n" +
-                        "And it would never be the same\n" +
-                        "Felt like I knew that I'd always love you\n" +
-                        "From the moment I heard your name"));
+                "My whole world changed from the moment I met you"));
 
         Common.movieList.add(new Movie("Civir war",
                 "https://hdqwalls.com/download/firewatch-game-graphics-2880x1800.jpg",
                 "Everything was perfect, I knew this love is worth it\n" +
-                        "Our own miracle in the makin'\n" +
-                        "'Til this world stops turning\n" +
-                        "I'll still be here waiting and waiting to make that vow that I'll...\n" +
-                        "I'll be by your side, 'til the day I die\n" +
-                        "I'll be waiting 'til I hear you say I Do\n" +
-                        "Something old, something new\n" +
-                        "Something borrowed, something blue\n" +
-                        "I'll be waiting 'til I hear you say I Do"));
+                        "Our own miracle in the makin"));
         Common.movieList.add(new Movie("Mountain",
                 "https://www.pixelstalk.net/wp-content/uploads/2016/07/Art-Images-HD-2880x1800-Download.jpg",
-                "Smiles by the thousands, ya tears have all dried out\n" +
-                        "'Cos I won't see you cry again\n" +
-                        "Throw pennies in the fountain, and look at what comes out\n" +
-                        "Sometimes wishes do come true"));
+                "Smiles by the thousands, ya tears have all dried out\n"));
         Common.movieList.add(new Movie("Neon City",
                 "https://external-preview.redd.it/XCTVIhr4EElXe3kgRt3cKiNlfHpS5xEUqEChHRoSjTI.jpg?auto=webp&s=fef5917af72b33d71eab15521dec8b6a89f53f07",
                 "Everything was perfect, I knew this love is worth it\n" +
-                        "Our own miracle in the makin'\n" +
-                        "'Til this world stops turning\n" +
-                        "I'll still be here waiting and waiting to make that vow that I'll...\n" +
-                        "I'll be by your side, 'til the day I die\n" +
-                        "I'll be waiting 'til I hear you say I Do\n" +
-                        "Something old, something new\n" +
-                        "Something borrowed, something blue\n" +
-                        "I'll be waiting 'til I hear you say I Do"));
+                        "Our own miracle in the makin'\n"));
     }
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CoverFlow_ItemClick.iml" filepath="$PROJECT_DIR$/.idea/modules/CoverFlow_ItemClick.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CoverFlow_ItemClick.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CoverFlow_ItemClick.app.iml" />
+    </modules>
+  </component>
+</project>
